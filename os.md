@@ -1,3 +1,3 @@
 
 # Operational Systems
-* [Windows](windos.md)
+* [Windows](windows.md)
