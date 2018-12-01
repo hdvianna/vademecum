@@ -4,4 +4,4 @@
 
 Type `chcp <code page number>`
 
-For example, to change to UTF `chcp 65001`
+For example, to change to UTF-8 `chcp 65001`
