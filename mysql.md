@@ -22,3 +22,9 @@ slow-query-log-file=c:/mysql/logs/longquery.log
 Type `SHOW INDEXES FROM <table tame>;`
 
 For example, `SHOW INDEXES FROM country;`
+
+## Showing Table Structure
+Type `SHOW CREATE TABLE <table tame>;`
+
+Type `SHOW CREATE TABLE country;`
+
