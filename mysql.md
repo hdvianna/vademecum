@@ -18,7 +18,7 @@ long_query_time = 2
 slow-query-log-file=c:/mysql/logs/longquery.log
 </pre>
 
-## Showing indices
+## Showing Indices
 Type `SHOW INDEXES FROM <table tame>;`
 
 For example, `SHOW INDEXES FROM country;`
