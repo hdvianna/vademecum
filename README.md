@@ -5,6 +5,7 @@ _Vade mécum_ is a latin word that literally means "come along". But today it re
 
 * [Databases](database.md)
 * [Operational Systems](os.md)
+* [Text Editors](texteditors.md)
 
 
 
