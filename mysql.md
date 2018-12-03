@@ -6,7 +6,7 @@
 
 <pre>
 slow_query_log = 1
-long_query_time = &lt;time limit for the query to be logged\&gt;
+long_query_time = &lt;time limit in seconds for the query to be logged\&gt;
 slow-query-log-file=&lt;path to the file log, use / instead of \&gt;
 </pre>
 
