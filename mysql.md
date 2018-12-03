@@ -1,7 +1,7 @@
 # MySQL
 
 ## Enabling Long Query Log on Windows
-1. Edit the file my.ini (usually on <mysql instalation folder>/bin)
+1. Edit the file my.ini (usually on &lt;mysql instalation folder&gt;/bin)
 2. Add the following lines  
 
 <pre>
