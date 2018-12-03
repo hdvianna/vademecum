@@ -26,5 +26,5 @@ For example, `SHOW INDEXES FROM country;`
 ## Showing Table Structure
 Type `SHOW CREATE TABLE <table tame>;`
 
-Type `SHOW CREATE TABLE country;`
+For example, `SHOW CREATE TABLE country;`
 
