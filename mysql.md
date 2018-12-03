@@ -6,14 +6,14 @@
 
 <pre>
 slow_query_log = 1
-long_query_time = <time limit for the query to be logged>
-slow-query-log-file=<path to the file log, use / instead of \>
+long_query_time = &lt;time limit for the query to be logged\&gt;
+slow-query-log-file=&lt;path to the file log, use / instead of \&gt;
 </pre>
 
 Example:
 
 <pre>
-``slow_query_log = 1``
-``long_query_time = 2``
-``slow-query-log-file=c:/mysql/logs/longquery.log``
+slow_query_log = 1
+long_query_time = 2
+slow-query-log-file=c:/mysql/logs/longquery.log
 </pre>
