@@ -1,3 +1,3 @@
 # Text Editors
 
-* (VIM)[vim.md]
+* [VIM](vim.md)
