@@ -1,3 +1,3 @@
-# Programmin Languages
+# Programming Languages
 
 *  [R](r.md)
