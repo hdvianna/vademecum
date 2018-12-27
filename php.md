@@ -17,5 +17,5 @@ For example:
 Then, run `composer` with `dump-autoload` to regenerate the autoload file.
 For example:
 <pre>
-composer dump-autoload
+>composer dump-autoload
 </pre>
