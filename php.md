@@ -22,6 +22,10 @@ For example:
 
 ## Symfony
 
+### Api docs
+
+Apis docs can be found at https://api.symfony.com/4.2/index.html
+
 ### Symfony client
 
 Symfony client is available for download at https://symfony.com/download
