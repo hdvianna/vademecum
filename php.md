@@ -26,7 +26,7 @@ For example:
 
 Symfony client is available for download at https://symfony.com/download
 
-#### Create a new full symfony project 
+#### Creating a new full symfony project 
 <pre>
 >symfony new &lt;project_name&gt;
 </pre>
