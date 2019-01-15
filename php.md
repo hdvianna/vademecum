@@ -19,3 +19,21 @@ For example:
 <pre>
 >composer dump-autoload
 </pre>
+
+## Symfony
+
+### Symfony client
+
+Symfony client is available for download at https://symfony.com/download
+
+#### Create a new full symfony project 
+<pre>
+>symfony new <project_nama>
+</pre>
+
+#### Serving the project
+<pre>
+>symfony serve
+</pre>
+
+
