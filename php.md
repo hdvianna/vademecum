@@ -28,7 +28,7 @@ Symfony client is available for download at https://symfony.com/download
 
 #### Create a new full symfony project 
 <pre>
->symfony new <project_nama>
+>symfony new &lt;project_name&gt;
 </pre>
 
 #### Serving the project
