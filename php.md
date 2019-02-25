@@ -40,4 +40,13 @@ Symfony client is available for download at https://symfony.com/download
 >symfony serve
 </pre>
 
+## php.ini
+
+### Allowing short open tags
+
+Allowing the use of `<?` for opening php scripts
+
+<pre>
+short_open_tag=On
+</pre>
 
