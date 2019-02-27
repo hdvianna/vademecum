@@ -50,3 +50,8 @@ Allowing the use of `<?` for opening php scripts
 short_open_tag=On
 </pre>
 
+## Resources
+
+### Awesome PHP
+
+"Awesome PHP" is a list with plenty of PHP helpful links: https://github.com/ziadoz/awesome-php
