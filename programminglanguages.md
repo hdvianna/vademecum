@@ -6,4 +6,4 @@
 
 ## Markup and Domain Specific Languages
 
-* [HtML](html.md)
+* [HTML](html.md)
