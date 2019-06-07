@@ -37,6 +37,7 @@ For example, `mysqldump blog -h mysql.blog.example.com -u ad_blog -r .\blog.dump
 ## Safe import on Windows console
 
 On the MySQL console, first select the desired database. For example, `use blog;`
+
 Then type `source <dump file path>;`. For example, `source blog.sql;`
 
 For example, `mysqldump blog -h mysql.blog.example.com -u ad_blog -r .\blog.dump.sql -p`
