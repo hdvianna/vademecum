@@ -2,7 +2,7 @@
 ## Git
 @joshnh has written a good list of common commands in https://github.com/joshnh/Git-Commands
 
-There is also (Git Handbook)[https://guides.github.com/introduction/git-handbook/]
+There is also [Git Handbook](https://guides.github.com/introduction/git-handbook/)
 
 ### Tag
 Creating a tag:
