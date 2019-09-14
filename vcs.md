@@ -1,8 +1,11 @@
 # Version Control Systems
 ## Git
-@joshnh has written a good list of common commands in https://github.com/joshnh/Git-Commands
 
-There is also [Git Handbook](https://guides.github.com/introduction/git-handbook/)
+### Learning
+
+- GitHub Learning Lab https://lab.github.com/
+- [Git Handbook](https://guides.github.com/introduction/git-handbook/) - https://guides.github.com/introduction/git-handbook/
+- @joshnh has written a good list of common commands in https://github.com/joshnh/Git-Commands
 
 ### Tag
 Creating a tag:
