@@ -14,6 +14,6 @@ sudo nano /etc/apt/apt.conf.d/proxy.conf
 3. Add the http and https proxy configuration in the file with the format `http://<user>:<password>@<host>:<port>/`
 Example:
 ```
-Acquire::http::Proxy "http://ron:obvious@flying.circ.us:42/";
-Acquire::https::Proxy "http://ron:obvious@flying.circ.us:42/";
+Acquire::http::Proxy "http://ron:obvious@example.com:42/";
+Acquire::https::Proxy "http://ron:obvious@example.com:42/";
 ```
