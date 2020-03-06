@@ -24,3 +24,7 @@ Acquire::https::Proxy "http://ron:obvious@example.com:42/";
 Edit the file `~/.profile`
 
 Then run `source ~/.profile` to load the new variables
+
+## Checking version
+
+On the terminal, run `lsb_release -d`
