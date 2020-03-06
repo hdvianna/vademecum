@@ -18,6 +18,9 @@ Example:
 Acquire::http::Proxy "http://ron:obvious@example.com:42/";
 Acquire::https::Proxy "http://ron:obvious@example.com:42/";
 ```
+## Global Environment Variables
+
+Edit the file `/etc/environment`
 
 ## User Environment Variables
 
