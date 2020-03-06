@@ -3,7 +3,7 @@
 ## Proxy setup
 1. Create a proxy.conf file
 ```
-sudo /etc/apt/apt.conf.d/proxy.conf
+sudo touch /etc/apt/apt.conf.d/proxy.conf
 ```
 
 2. Edit the file to add the proxy configuration
