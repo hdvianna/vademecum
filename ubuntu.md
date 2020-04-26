@@ -34,11 +34,11 @@ On the terminal, run `lsb_release -d`
 
 ## Adding a share in a VirtualBox Guest
 
-1. Install the _guest additions_
-1.1. On the VirtualBox guest window click on _Devices_ menu and then on _Insert Guest Additions CD Image_
-1.2. Log into the guest
-1.3. Mount the _guest additions_ cdrom
-1.3.1. Create a cdrom folder o `/media`, e.g. `$sudo mkdir /media/cdrom`
-1.3.2. Mount the cdrom, e.g. `sudo mount /dev/cdrom /media/cdrom`
-1.4. Install the _guest additions_ cd rom
+1. Install the _guest additions_ 
+    1. On the VirtualBox guest window click on _Devices_ menu and then on _Insert Guest Additions CD Image_
+    2. Log into the guest
+    3. Mount the _guest additions_ cdrom
+        1. Create a cdrom folder o `/media`, e.g. `$sudo mkdir /media/cdrom`
+        2. Mount the cdrom, e.g. `sudo mount /dev/cdrom /media/cdrom`
+    4. Install the _guest additions_ cd rom
 
