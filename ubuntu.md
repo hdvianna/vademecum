@@ -41,4 +41,6 @@ On the terminal, run `lsb_release -d`
         1. Create a cdrom folder o `/media`, e.g. `$sudo mkdir /media/cdrom`
         2. Mount the cdrom, e.g. `sudo mount /dev/cdrom /media/cdrom`
     4. Install the _guest additions_ cd rom
+        1. `cd /media/cdrom`
+        2. `$sudo ./VBoxLinuxAdditions.run`
 
