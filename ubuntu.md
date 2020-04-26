@@ -44,7 +44,7 @@ On the terminal, run `lsb_release -d`
         1. `cd /media/cdrom`
         2. `$sudo ./VBoxLinuxAdditions.run`
 2. Add the current user to the group vboxsf, e.g. `$sudo usermod -aG vboxsf $USER`
-3. Create share folder on the VirtualBox guest
+3. Create the share folder on the VirtualBox guest
     1. In the VirtualBox guest window click on _Devices_ menu, then on _Share Folders_, then on _Share Folder Settings_
     2. Add a new share folder
         1. Select the folder path
@@ -52,7 +52,7 @@ On the terminal, run `lsb_release -d`
         3. Check the `Mount Automatically` box
         4. Set the mount point path in the guest machine
 4. Configure for mounting the share folder automatically
-    1. Log into the guest
+    1. Log into the guest machine
     2. Open the fstab file, e.g. `$sudo nano /etc/fstab`
     3. Configure the share folder mount point, by appending the following line to the fstab file
         1. `shared_named_in_virtual_box /home/user/point_mount_name vboxsf defaults,dmode=755,fmode=644,gid=1000,uid=1000 0 0`
