@@ -36,14 +36,16 @@ On the terminal, run `lsb_release -d`
 
 1. Install the _guest additions_ 
     1. In the VirtualBox guest window click on _Devices_ menu and then on _Insert Guest Additions CD Image_
-    2. Log into the guest
+    2. Log into the guest machine
     3. Mount the _guest additions_ cdrom
-        1. Create a cdrom folder o `/media`, e.g. `$sudo mkdir /media/cdrom`
+        1. Create a cdrom folder in `/media`, e.g. `$sudo mkdir /media/cdrom`
         2. Mount the cdrom, e.g. `$sudo mount /dev/cdrom /media/cdrom`
-    4. Install the _guest additions_ cd rom
+    4. Install the _guest additions_
         1. `$cd /media/cdrom`
         2. `$sudo ./VBoxLinuxAdditions.run`
-2. Add the current user to the group vboxsf, e.g. `$sudo usermod -aG vboxsf $USER`
+2. Configure the user
+    2. Go to the guest machine
+    3. Add the current user to the group vboxsf, e.g. `$sudo usermod -aG vboxsf $USER`
 3. Create the share folder on the VirtualBox guest
     1. In the VirtualBox guest window click on _Devices_ menu, then on _Share Folders_, then on _Share Folder Settings_
     2. Add a new share folder
@@ -52,7 +54,7 @@ On the terminal, run `lsb_release -d`
         3. Check the `Mount Automatically` box
         4. Set the mount point path in the guest machine
 4. Configure for mounting the share folder automatically
-    1. Log into the guest machine
+    1. Go to the guest machine
     2. Open the fstab file, e.g. `$sudo nano /etc/fstab`
     3. Configure the share folder mount point, by appending the following line to the fstab file
         1. `shared_named_in_virtual_box /home/user/point_mount_name vboxsf defaults,dmode=755,fmode=644,gid=1000,uid=1000 0 0`
