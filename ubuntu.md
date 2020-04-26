@@ -39,9 +39,9 @@ On the terminal, run `lsb_release -d`
     2. Log into the guest
     3. Mount the _guest additions_ cdrom
         1. Create a cdrom folder o `/media`, e.g. `$sudo mkdir /media/cdrom`
-        2. Mount the cdrom, e.g. `sudo mount /dev/cdrom /media/cdrom`
+        2. Mount the cdrom, e.g. `$sudo mount /dev/cdrom /media/cdrom`
     4. Install the _guest additions_ cd rom
-        1. `cd /media/cdrom`
+        1. `$cd /media/cdrom`
         2. `$sudo ./VBoxLinuxAdditions.run`
 2. Add the current user to the group vboxsf, e.g. `$sudo usermod -aG vboxsf $USER`
 3. Create the share folder on the VirtualBox guest
