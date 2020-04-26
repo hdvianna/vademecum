@@ -50,4 +50,11 @@ On the terminal, run `lsb_release -d`
         2. Set the share name
         3. Check the `Mount Automatically` box
 3. Configure the `/etc/fstab`
+    1. Log into the guest
+    2. Add the current user to the group vboxsf, e.g. `$sudo usermod -aG vboxsf $USER`
+    3. Open the fstab file, e.e. `$sudo nano /etc/fstab`
+    4. Configure the share folder mount point, by appending the following line to the fstab file
+        1. `shared_named_in_virtual_box /home/user/point_mount_name vboxsf defaults,dmode=755,fmode=644,gid=1000,uid=1000 0 0`
+    5. Save the file
+    6. Reboot the guest machine
 
