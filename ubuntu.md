@@ -35,7 +35,7 @@ On the terminal, run `lsb_release -d`
 ## Adding a share in a VirtualBox Guest
 
 1. Install the _guest additions_ 
-    1. On the VirtualBox guest window click on _Devices_ menu and then on _Insert Guest Additions CD Image_
+    1. In the VirtualBox guest window click on _Devices_ menu and then on _Insert Guest Additions CD Image_
     2. Log into the guest
     3. Mount the _guest additions_ cdrom
         1. Create a cdrom folder o `/media`, e.g. `$sudo mkdir /media/cdrom`
@@ -43,4 +43,11 @@ On the terminal, run `lsb_release -d`
     4. Install the _guest additions_ cd rom
         1. `cd /media/cdrom`
         2. `$sudo ./VBoxLinuxAdditions.run`
+2. Create share folder on the VirtualBox guest
+    1. In the VirtualBox guest window click on _Devices_ menu, then on _Share Folders_, then on _Share Folder Settings_
+    2. Add a new share folder
+        1. Select the folder path
+        2. Set the share name
+        3. Check the `Mount Automatically` box
+3. Configure the `/etc/fstab`
 
