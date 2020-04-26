@@ -50,7 +50,7 @@ On the terminal, run `lsb_release -d`
         1. Select the folder path
         2. Set the share name
         3. Check the `Mount Automatically` box
-        4. Set the mount point path on the guest machine
+        4. Set the mount point path in the guest machine
 4. Configure for mounting the share folder automatically
     1. Log into the guest
     2. Open the fstab file, e.g. `$sudo nano /etc/fstab`
