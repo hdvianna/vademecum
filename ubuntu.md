@@ -78,3 +78,4 @@ On the terminal, run `lsb_release -d`
 ## Exit Codes
 
  - **137**: Out of memory
+ - **143**: SIGTERM (e.g. kill)
