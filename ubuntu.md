@@ -60,4 +60,8 @@ On the terminal, run `lsb_release -d`
         1. `shared_named_in_virtual_box /home/user/point_mount_name vboxsf defaults,dmode=755,fmode=644,gid=1000,uid=1000 0 0`
     4. Save the file
     5. Reboot the guest machine
+    
+ ## Increasing Virtual Memory Maximum Number of Map Areas 
+ 
+ `$sudo sysctl -w vm.max_map_count=262144`
 
