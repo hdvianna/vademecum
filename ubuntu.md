@@ -65,3 +65,6 @@ On the terminal, run `lsb_release -d`
  
  `$sudo sysctl -w vm.max_map_count=262144`
 
+## Exit Codes
+
+ - **137**: Out of memory
