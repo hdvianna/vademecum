@@ -63,7 +63,17 @@ On the terminal, run `lsb_release -d`
     
  ## Increasing Virtual Memory Maximum Number of Map Areas 
  
+### Temporally Update
  `$sudo sysctl -w vm.max_map_count=262144`
+ 
+### Permanent Update
+1. Open the file `/etc/sysctl.conf`
+2. Add the line `vm.max_map_count=262144`
+3. Save the file
+4. Reboot
+
+### Checking the value
+`$sysctl vm.max_map_count`
 
 ## Exit Codes
 
