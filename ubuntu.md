@@ -28,9 +28,15 @@ Edit the file `~/.profile`
 
 Then run `source ~/.profile` to load the new variables
 
-## Checking version
+## Checking 
+
+### Version
 
 On the terminal, run `lsb_release -d`
+
+### Disk space
+
+`$df -h`
 
 ## Adding a share in a VirtualBox Guest
 
