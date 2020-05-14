@@ -38,6 +38,12 @@ On the terminal, run `lsb_release -d`
 
 `$df -h`
 
+## History
+
+`$history` lists the history of commands run by the user
+
+`$history -c` clears the history list
+
 ## Adding a share in a VirtualBox Guest
 
 1. Install the _guest additions_ 
