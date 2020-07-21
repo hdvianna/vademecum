@@ -91,3 +91,15 @@ On the terminal, run `lsb_release -d`
 
  - **137**: Out of memory
  - **143**: SIGTERM (e.g. kill)
+ 
+ ## Commands
+ 
+ ### Watch
+ 
+ `watch <command>`
+ 
+Run a given command from time to time printing its results. Example:
+ 
+ ```bash
+ watch systemctl status docker
+ ```
