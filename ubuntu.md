@@ -28,6 +28,12 @@ Edit the file `~/.profile`
 
 Then run `source ~/.profile` to load the new variables
 
+## User Management
+
+### Adding users
+
+`adduser <user name>`
+
 ## Checking 
 
 ### Version
@@ -91,6 +97,14 @@ On the terminal, run `lsb_release -d`
 
  - **137**: Out of memory
  - **143**: SIGTERM (e.g. kill)
+ 
+ ## SSH Filesystem
+ 
+ ```bash
+ sshfs -o allow_other -o kernel_cache -o auto_cache -o reconnect \
+  -o compression=no -o cache_timeout=600 -o ServerAliveInterval=15 \
+  [<user>@]<address>:<path> <path>
+ ```
  
  ## Commands
  
