@@ -50,6 +50,12 @@ Allowing the use of `<?` for opening php scripts
 short_open_tag=On
 </pre>
 
+### Other configurations
+
+`post_max_size`
+`upload_max_filesize`
+`memory_limit`
+
 ## Resources
 
 ### Awesome PHP
