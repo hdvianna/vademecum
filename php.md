@@ -53,7 +53,9 @@ short_open_tag=On
 ### Other configurations
 
 `post_max_size`
+
 `upload_max_filesize`
+
 `memory_limit`
 
 ## Resources
