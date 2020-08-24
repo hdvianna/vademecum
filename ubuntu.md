@@ -118,7 +118,7 @@ Run a given command from time to time printing its results. Example:
  watch systemctl status docker
  ```
  
- ## Generating Self-signed Certificates
+ ## Generating Self-Signed Certificates
  
 ```bash
 mkdir -p certs
