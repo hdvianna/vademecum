@@ -117,3 +117,18 @@ Run a given command from time to time printing its results. Example:
  ```bash
  watch systemctl status docker
  ```
+ 
+ ## Generating Self-signed Certificates
+ 
+```bash
+mkdir -p certs
+
+# Generates the certificate
+openssl req \
+  -newkey rsa:4096 -nodes -sha256 -keyout certs/domain.key \
+  -x509 -days 365 -out certs/domain.crt
+
+# Updates the certificate at OS level 
+cp certs/domain.crt /usr/local/share/ca-certificates/myregistrydomain.com.crt
+update-ca-certificates
+```
