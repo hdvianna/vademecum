@@ -20,6 +20,18 @@ For example:
 >composer dump-autoload
 </pre>
 
+### Creating project 
+
+```bash
+composer create project --prefer-dist <package> <project-name> 
+```
+
+Example
+
+```bash
+composer create project --prefer-dist laravel/laravel blog 
+```
+
 ## Symfony
 
 ### Api docs
