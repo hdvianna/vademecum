@@ -8,17 +8,17 @@ In the `composer.json` file add the `autoload` field.
 
 For example:
 
-<pre>
+```json
   "autoload": {
         "psr-4": {"hdvianna\\": "src/"}
    }
-</pre>
+```
 
 Then, run `composer` with `dump-autoload` to regenerate the autoload file.
 For example:
-<pre>
->composer dump-autoload
-</pre>
+```bash
+composer dump-autoload
+```
 
 ### Creating project 
 
@@ -43,14 +43,14 @@ Apis docs can be found at https://api.symfony.com/4.2/index.html
 Symfony client is available for download at https://symfony.com/download
 
 #### Creating a new full symfony project 
-<pre>
->symfony new &lt;project_name&gt;
-</pre>
+```bash
+symfony new <project-name>
+```
 
 #### Serving the project
-<pre>
->symfony serve
-</pre>
+```bash
+symfony serve
+```
 
 ## php.ini
 
@@ -58,9 +58,9 @@ Symfony client is available for download at https://symfony.com/download
 
 Allowing the use of `<?` for opening php scripts
 
-<pre>
+```ini
 short_open_tag=On
-</pre>
+```
 
 ### Other configurations
 
