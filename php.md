@@ -24,12 +24,15 @@ composer dump-autoload
 
 ```bash
 composer create project --prefer-dist <package> <project-name> 
+composer create-project  <package> <project-name> 
 ```
 
-Example
+Examples
 
 ```bash
 composer create project --prefer-dist laravel/laravel blog 
+
+composer create-project symfony/website-skeleton demo
 ```
 
 ## Symfony
